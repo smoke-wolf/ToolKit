@@ -31,7 +31,7 @@ case $choice in
     2)
         echo "Running Option 2 - Description 2"
         cd "Speech2Text"
-        python3 "Speech2Text.py"
+        python3 "speech.py"
         ;;
     3)
         echo "Running Option 3 - Description 3"
