@@ -4,7 +4,7 @@
 display_usage() {
     echo "Options:"
     echo "  1. Mac Commands - provides real-time examples and usage explanations for every terminal command "
-    echo "  2. Option 2 - Description 2"
+    echo "  2. Speech2Text - a very capable tool for extracting text from audio while also having features for name corrections and commom error training "
     echo "  3. Option 3 - Description 3"
     echo "  4. Option 4 - Description 4"
     echo "  5. Option 5 - Description 5"
@@ -30,7 +30,8 @@ case $choice in
         ;;
     2)
         echo "Running Option 2 - Description 2"
-        # Add your command for option 2 here
+        cd "Speech2Text"
+        python3 "Speech2Text.py"
         ;;
     3)
         echo "Running Option 3 - Description 3"
