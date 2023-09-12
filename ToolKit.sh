@@ -25,7 +25,8 @@ read -p "Enter your choice (1-10): " choice
 case $choice in
     1)
         echo "Running Option 1 - Description 1"
-        python3 "macCommands/comsearch.py"
+        cd "macCommands"
+        python3 "comsearch.py"
         ;;
     2)
         echo "Running Option 2 - Description 2"
