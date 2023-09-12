@@ -5,7 +5,7 @@ display_usage() {
     echo "Options:"
     echo "  1. Mac Commands - provides real-time examples and usage explanations for every terminal command "
     echo "  2. Speech2Text - a very capable tool for extracting text from audio while also having features for name corrections and commom error training "
-    echo "  3. Option 3 - Description 3"
+    echo "  3. Advanced System Info - Get info about the local device, good for post access"
     echo "  4. Option 4 - Description 4"
     echo "  5. Option 5 - Description 5"
     echo "  6. Option 6 - Description 6"
@@ -35,7 +35,8 @@ case $choice in
         ;;
     3)
         echo "Running Option 3 - Description 3"
-        # Add your command for option 3 here
+        cd "AdvancedInfo"
+        bash "SysFO.sh"
         ;;
     4)
         echo "Running Option 4 - Description 4"
