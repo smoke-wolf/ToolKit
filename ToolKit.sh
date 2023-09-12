@@ -7,7 +7,7 @@ display_usage() {
     echo "  2. Speech2Text - a very capable tool for extracting text from audio while also having features for name corrections and commom error training "
     echo "  3. Advanced System Info - Get info about the local device, good for post access"
     echo "  4. ZipLocker - Straight Forward Application to encrypt and password protect a directory"
-    echo "  5. Option 5 - Description 5"
+    echo "  5. MAD OSINT - GHPM powerd collection of OSINT tools and techniques, Increadibly capable"
     echo "  6. Option 6 - Description 6"
     echo "  7. Option 7 - Description 7"
     echo "  8. Option 8 - Description 8"
@@ -40,11 +40,13 @@ case $choice in
         ;;
     4)
         echo "Running Option 4 - Description 4"
-        # Add your command for option 4 here
+        cd "ZipLocker"
+        bash "ZipLocker.sh"
         ;;
     5)
         echo "Running Option 5 - Description 5"
-        # Add your command for option 5 here
+        cd "MAD-OSINT"
+        python3 "GhPOsin.py"
         ;;
     6)
         echo "Running Option 6 - Description 6"
