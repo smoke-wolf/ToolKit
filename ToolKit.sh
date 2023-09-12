@@ -2,7 +2,6 @@
 
 # Function to display usage instructions
 display_usage() {
-    echo "Usage: $0 [option]"
     echo "Options:"
     echo "  1. Mac Commands - provides real-time examples and usage explanations for every terminal command "
     echo "  2. Option 2 - Description 2"
@@ -14,20 +13,19 @@ display_usage() {
     echo "  8. Option 8 - Description 8"
     echo "  9. Option 9 - Description 9"
     echo "  10. Option 10 - Description 10"
-    exit 1
 }
 
-# Check if an option is provided
-if [ $# -eq 0 ]; then
-    display_usage
-fi
+# Display the menu of options
+display_usage
+
+# Prompt the user for their choice
+read -p "Enter your choice (1-10): " choice
 
 # Main switch case for options
-case $1 in
+case $choice in
     1)
         echo "Running Option 1 - Description 1"
         python3 "macCommands/comsearch.py"
-        
         ;;
     2)
         echo "Running Option 2 - Description 2"
@@ -66,8 +64,7 @@ case $1 in
         # Add your command for option 10 here
         ;;
     *)
-        echo "Invalid option: $1"
-        display_usage
+        echo "Invalid option: $choice"
         ;;
 esac
 
