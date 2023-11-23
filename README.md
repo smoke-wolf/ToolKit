@@ -1,6 +1,9 @@
 
 # 🛠️ ToolKit
 ToolKit comprises a diverse set of independent applications, each considered complete and unlikely to undergo significant modifications unless there's evident interest in a specific project.
+**Installing The Toolkit**
+`git clone https://github.com/smoke-wolf/ToolKit.git`
+`bash ToolKit.sh`
 
 ## 📜 Issue Manager
 issuemanager is a user-friendly application tailored for efficient issue management within projects. It simplifies tasks like adding, editing, saving, importing, and exporting issues to streamline project workflows. 🚀
