@@ -8,7 +8,7 @@ display_usage() {
     echo "  3. Advanced System Info - Get info about the local device, good for post access"
     echo "  4. ZipLocker - Straight Forward Application to encrypt and password protect a directory"
     echo "  5. MAD OSINT - GHPM powerd collection of OSINT tools and techniques, Increadibly capable"
-    echo "  6. Option 6 - Description 6"
+    echo "  6. Password Promptor - Generate Possible passwords based on dates."
     echo "  7. Option 7 - Description 7"
     echo "  8. Option 8 - Description 8"
     echo "  9. Option 9 - Description 9"
@@ -50,8 +50,8 @@ case $choice in
         ;;
     6)
         echo "Running Option 6 - Description 6"
-        # Add your command for option 6 here
-        ;;
+        cd PasswordPrompter
+        python3 "passwordpromptor.py"
     7)
         echo "Running Option 7 - Description 7"
         # Add your command for option 7 here
