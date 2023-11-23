@@ -1,5 +1,5 @@
 
-# 🛠️ ToolKit
+# 🛠️ ToolKit [LEARN HOW TO USE THE TOOLKIT](https://github.com/smoke-wolf/ToolKit/wiki)
 ToolKit comprises a diverse set of independent applications, each considered complete and unlikely to undergo significant modifications unless there's evident interest in a specific project.
 **Installing The Toolkit**
 
