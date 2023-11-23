@@ -52,6 +52,7 @@ case $choice in
         echo "Running Option 6 - Description 6"
         cd PasswordPrompter
         python3 "passwordpromptor.py"
+        ;;
     7)
         echo "Running Option 7 - Description 7"
         # Add your command for option 7 here
